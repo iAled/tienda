@@ -1,4 +1,4 @@
-#tituloPrincipal{
+/* #tituloPrincipal{
     color: dodgerblue;
     font-family: sans-serif;
 }
@@ -12,6 +12,35 @@
 }
 p {
     background-color: slateblue;
-    
-}
 
+}
+a:link {
+    color: chartreuse;
+}
+a:visited {
+    color: darkkhaki;
+}
+a:hover{
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+}
+a:active{
+    background-color: red;
+    color: black;
+}
+p:nth-child(even){
+    background-color: red;
+}
+p:nth-child (odd){
+    background-color: greenyellow;
+} */
+
+.contenedor{
+    top: 12%;
+    left: 0;
+    background-color: bisque;
+    margin: 0px;
+    padding: 10px;
+    position: fixed;
+}
