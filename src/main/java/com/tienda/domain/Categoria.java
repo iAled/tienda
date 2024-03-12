@@ -18,7 +18,7 @@ public class Categoria implements Serializable {
     private String rutaImagen;
     private boolean activo;
 
-    public Categoria() {
+    public Categoria(){
     }
 
     public Categoria(String descripcion, String rutaImagen, boolean activo) {
@@ -26,5 +26,5 @@ public class Categoria implements Serializable {
         this.rutaImagen = rutaImagen;
         this.activo = activo;
     }
-    
+
 }
